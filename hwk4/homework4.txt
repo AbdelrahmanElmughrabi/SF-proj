@@ -1,1 +1,684 @@
+Q2:
+
+Step a:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~
+$ git config --global user.name "Abdelrahman Elmughrabi"
+
+Abdelrahman@Pancakeflip MINGW64 ~
+$ git config --global user.email abdrahman.mughrabi14@gmail.com
+
+Abdelrahman@Pancakeflip MINGW64 ~
+$ git config --global core.editor "\C:\Users\mashe\Downloads\netbeans-19-bin\netbeans\bin\netbeans64.exe"
+
+Abdelrahman@Pancakeflip MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+core.fsmonitor=true
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+user.name=Abdelrahman Elmughrabi
+user.email=abdrahman.mughrabi14@gmail.com
+core.editor=\C:\Users\mashe\Downloads\netbeans-19-bin\netbeans\bin\netbeans64.exe
+
+-------------------------------------------------------------------------------------------
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ git config --global user.name "MuhammadJibril Khamiddinov"
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ git config --global user.email macblackoriginal@gmail.com
+
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ git config --global core.editor "\C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NetBeans\NetBeans IDE 8.2.lnk"
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+core.editor=\C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NetBeans\NetBeans IDE 8.2.lnk
+user.name=MuhammadJibril Khamiddinov
+user.email=macblackoriginal@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+:
+
+
+Question answer: 
+$ git config --global user.name
+$ git config --global user.email
+$ git config --global core.editor
+$ git config --list
+
+
+==================================================================================
+
+
+Step B:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~
+$ git clone "https://github.com/AbdelrahmanElmughrabi/SF-proj.git"
+Cloning into 'SF-proj'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+
+Abdelrahman@Pancakeflip MINGW64 ~
+$ cd SF-proj
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ ls
+README.md  hwk4/
+
+-----------------------------------------------------------------------------------
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ git clone "https://github.com/AbdelrahmanElmughrabi/SF-proj.git"
+Cloning into 'SF-proj'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (7/7), done.
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ cd SF-proj
+
+Macblack@Lenovo MINGW64 ~/SF-proj (main)
+$ ls
+README.md  hwk4/
+
+
+Question answer: 
+README.md  hwk4/
+
+==================================================================================
+
+Step C:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ nano README.md
+
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git commit -m "add project info to README.md"
+[main bae8219] add project info to README.md
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 710 bytes | 710.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+   9ce72d9..bae8219  main -> main
+
+-----------------------------------------------------------------------------------
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~/SF-proj (main)
+$ git checkout -b new-branch-1
+Switched to a new branch 'new-branch-1'
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ git add README.md
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ nano README.md
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ git commit -m "Review the changes on README.md"
+[new-branch-1 6ea390b] Review the changes on README.md
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ git push origin new-branch-1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 723 bytes | 723.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'new-branch-1' on GitHub by visiting:
+remote:      https://github.com/AbdelrahmanElmughrabi/SF-proj/pull/new/new-branch-1
+remote:
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+[new branch]      new-branch-1 -> new-branch-1
+
+
+Question answer: 
+[Işık University - Department of Software Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+==============================================================================================
+
+Step D:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ touch .gitignore
+
+editing on the .gitignore file:
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ nano .gitignore
+
+Commiting that I added a git ignore file:
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git commit -m "My .gitignore file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git add .gitignore
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git commit -m "uploading my .gitignore file"
+[main c5b8c8c] uploading my .gitignore file
+ 1 file changed, 24 insertions(+)
+ create mode 100644 .gitignore
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 537 bytes | 537.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+   bae8219..c5b8c8c  main -> main
+
+
+Question answer: 
+Rules:
+
+Ignores all files with the extension .log.
+
+Ignores all files with the extension .ctxt
+
+.mtj.tmp/: Ignores the entire directory named
+ (*.jar, *.war, *.nar, *.ear, *.zip, *.tar.gz, *.rar) ŞIgnores various packaged files used in Java
+
+gnores crash logs generated by the Java HotSpot Virtual Machine. Files matching the pattern hs_err_pid*.
+
+Ignores files related to replay process IDs replay_pid*.
+
+-----------------------------------------------------------------------------------
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ touch .gitignore
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ nano .gitignore
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ git add .gitignore
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ git commit -m "new .gitignore file created"
+[new-branch-1 70c735d] new .gitignore file created
+ 1 file changed, 27 insertions(+)
+ create mode 100644 .gitignore
+
+Macblack@Lenovo MINGW64 ~/SF-proj (new-branch-1)
+$ git push origin new-branch-1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 565 bytes | 565.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+   6ea390b..70c735d  new-branch-1 -> new-branch-1
+
+
+
+Question answer: 
+Rules:
+
+Ignores all files with the extension .log.
+
+Ignores all files with the extension .ctxt
+
+.mtj.tmp/: Ignores the entire directory named
+ (*.jar, *.war, *.nar, *.ear, *.zip, *.tar.gz, *.rar) ŞIgnores various packaged files used in Java
+
+gnores crash logs generated by the Java HotSpot Virtual Machine. Files matching the pattern hs_err_pid*.
+
+Ignores files related to replay process IDs replay_pid*.
+
+
+==================================================================================
+
+Step E:
+
+Abdelrahman Elmughrabi
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj(main)
+git branch feature-1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-1)
+$ mkdir hmk1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-1)
+$ cd hmk1
+
+==================================================================================
+
+Step F:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-1)
+$ git add hw4.java
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-1)
+$ git mv hw4.java hmk1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-1)
+$ cd hmk1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-1)
+$ ls
+hw4.java
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-1)
+$ git commit -m "satisfying requirement one"
+[feature-1 07caa2c] satisfying requirement one
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename hw4.java => hmk1/hw4.java (100%)
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-1)
+$ git push origin feature-1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.21 KiB | 1.21 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-1' on GitHub by visiting:
+remote:      https://github.com/AbdelrahmanElmughrabi/SF-proj/pull/new/feature-1
+remote:
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+ * [new branch]      feature-1 -> feature-1
+
+
+Question answer:
+
+Commits on feature-1:
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-1)
+$ git commit -m "satisfying requirement one"
+[feature-1 07caa2c] satisfying requirement one
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename hw4.java => hmk1/hw4.java (100%)
+
+sub files in hmk1 on feature-1:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-1)
+$ ls
+hw4.java
+
+sub files in hmk1 on main:
+it was empty on main.
+
+=================================================================================
+
+Step G:
+
+Abdelrahman Elmughrabi
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-1)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$  git pull origin main
+From https://github.com/AbdelrahmanElmughrabi/SF-proj
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git merge feature-1
+Updating c5b8c8c..07caa2c
+Fast-forward
+ hmk1/hw4.java | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 44 insertions(+)
+ create mode 100644 hmk1/hw4.java
+
+==================================================================================
+
+Step H:
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~/SF-proj (main)
+$ git branch feature-2
+
+Macblack@Lenovo MINGW64 ~/SF-proj (main)
+$ git checkout feature-2
+Switched to branch 'feature-2'
+
+==================================================================================
+
+Step I:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git branch feature-3
+
+==================================================================================
+
+Step j:
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~ (main)
+$ git clone "https://github.com/AbdelrahmanElmughrabi/SF-proj.git"
+Cloning into 'SF-proj'...
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 25 (delta 2), reused 16 (delta 0), pack-reused 0
+Receiving objects: 100% (25/25), 4.39 KiB | 1.46 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+[1:26 PM]
+
+
+Macblack@Lenovo MINGW64 ~/SF-proj (main)
+$ git checkout feature-2
+Switched to branch 'feature-2'
+M       hmk1/hw4.java
+
+Macblack@Lenovo MINGW64 ~/SF-proj (feature-2)
+$ cd hmk1
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (feature-2)
+$ mkdir original
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ cd ..
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (feature-2)
+$ mv hw4.java original
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (feature-2)
+$ cd ..
+
+Macblack@Lenovo MINGW64 ~/SF-proj (feature-2)
+$ cd ..
+
+Macblack@Lenovo MINGW64 ~/SF-proj (feature-2)
+$ mv hw4-v1.1.java hmk1
+
+Macblack@Lenovo MINGW64 ~/SF-proj (feature-2)
+$ cd hmk1
+[3:52 PM]
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (feature-2)
+$ git add hw4-v1.1.java
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (feature-2)
+$ cd original
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ git add hw4.java
+warning: in the working copy of 'hmk1/original/hw4.java', LF will be replaced by CRLF the next time Git touches it
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ git commit -m "satisfying requirement change two"
+[feature-2 6eeaf6b] satisfying requirement change two
+ 2 files changed, 90 insertions(+)
+ create mode 100644 hmk1/hw4-v1.1.java
+ create mode 100644 hmk1/original/hw4.java
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ git push origin feature-2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.00 KiB | 1.00 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-2' on GitHub by visiting:
+remote:      https://github.com/AbdelrahmanElmughrabi/SF-proj/pull/new/feature-2
+remote:
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+
+
+Question answer:
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ git commit -m "satisfying requirement change two"
+[feature-2 6eeaf6b] satisfying requirement change two
+ 2 files changed, 90 insertions(+)
+ create mode 100644 hmk1/hw4-v1.1.java
+ create mode 100644 hmk1/original/hw4.java
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ git push origin feature-2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.00 KiB | 1.00 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-2' on GitHub by visiting:
+remote:      https://github.com/AbdelrahmanElmughrabi/SF-proj/pull/new/feature-2
+remote:
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+
+==================================================================================
+
+Step K:
+
+Abdelrahman Elmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (main)
+$ git checkout feature-3
+Switched to branch 'feature-3'
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-3)
+$ git clone "https://github.com/AbdelrahmanElmughrabi/SF-proj.git"
+Cloning into 'SF-proj'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 29 (delta 3), reused 19 (delta 0), pack-reused 0
+Receiving objects: 100% (29/29), 5.05 KiB | 1.26 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-3)
+$ ls
+README.md  SF-proj/  hmk1/  hw4-v1.2.java  hwk4/
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-3)
+$ cd hmk1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-3)
+$ mv hw4-v1.2.java hmk1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj (feature-3)
+$ cd hmk1
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ git add hw4-v1.2.java
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ mkdir original
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ mv hw4.java original
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ git add hw4.java
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ git commit -m "satisfying requirement three"
+[feature-3 88fae48] satisfying requirement three
+ 1 file changed, 1 insertion(+)
+ rename hmk1/{hw4.java => hw4-v1.2.java} (98%)
+
+==================================================================================
+
+Step l:
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (feature-2)
+$ git checkout main
+Switched to branch 'main'
+D       hmk1/hw4.java
+Your branch is up to date with 'origin/main'.
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (main)
+$ git merge feature-2
+Updating 07caa2c..6eeaf6b
+Fast-forward
+ hmk1/hw4-v1.1.java     | 46 ++++++++++++++++++++++++++++++++++++++++++++++
+ hmk1/original/hw4.java | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 90 insertions(+)
+ create mode 100644 hmk1/hw4-v1.1.java
+ create mode 100644 hmk1/original/hw4.java
+
+==================================================================================
+
+Step M:
+
+Abdelrahman Elmughrabi
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ git commit -m "satisfying requirement three"
+[feature-3 88fae48] satisfying requirement three
+ 1 file changed, 1 insertion(+)
+ rename hmk1/{hw4.java => hw4-v1.2.java} (98%)
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (feature-3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git merge feature-3
+Updating 07caa2c..88fae48
+Fast-forward
+ hmk1/{hw4.java => hw4-v1.2.java} | 1 +
+ 1 file changed, 1 insertion(+)
+ rename hmk1/{hw4.java => hw4-v1.2.java} (98%)
+
+Question answer:
+ 
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git diff main -- feature-2
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git diff feature-3 -- feature-2
+
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git diff main feature-3
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1 (main)
+$ git diff main -- feature-2
+
+There's no difference because we have merge them into main
+
+==================================================================================
+Step N:
+
+Abdelrahman ELmughrabi:
+
+Abdelrahman@Pancakeflip MINGW64 ~/SF-proj/hmk1 (main)
+$ git push origin main -- feature-3
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 945 bytes | 945.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+   07caa2c..88fae48  main -> main
+ * [new branch]      feature-3 -> feature-3
+
+
+MuhammadJibril Khamiddinov:
+
+Macblack@Lenovo MINGW64 ~/SF-proj/hmk1/original (feature-2)
+$ git push origin feature-2
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.00 KiB | 1.00 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature-2' on GitHub by visiting:
+remote:      https://github.com/AbdelrahmanElmughrabi/SF-proj/pull/new/feature-2
+remote:
+To https://github.com/AbdelrahmanElmughrabi/SF-proj.git
+
+
+
+
+
 
